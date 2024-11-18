@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>BLN Scoreboard</title>
+</head>
+
+<body id="app">
+	<div class="container" v-if="show">
+		<div class="board">
+			<div class="board-item heading">
+				<div class="col">#</div>
+				<div class="col name"></div>
+				<div class="col job">Job</div>
+				<div class="col">Cash</div>
+				<div class="col">Ping</div>
+			</div>
+			<div class="divider"></div>
+			<div class="board-data-container">
+				<div class="board-item" v-for="(player, idx) in players.data" :key="player.id">
+					<div class="col">{{idx + 1}}</div>
+					<div class="col name"><img src="./assets/imgs/pl_icon.png" width="32px" />{{player.name}}</div>
+					<div class="col job">{{player.job}}</div>
+					<div class="col">{{moneyFormat(player.money)}}</div>
+					<div class="col" :style="`color: ${getPingColor(player.ping)};`">{{player.ping}}</div>
+				</div>
+			</div>
+			<div class="divider"></div>
+		</div>
+		<div class="footer">
+			Online: {{players.online}}
+		</div>
+	</div>
+	<script src="vendor/vue.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>
