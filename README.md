@@ -1,9 +1,7 @@
 # RedM Scoreboard Script
 
 <img src="./.github/assets/banner.png" alt="bln scoreboard script - redm" width="100%" />
-<div style="display: flex; justify-content: space-between;">
-    <img src="./.github/assets/demo.gif" alt="Image 1" width="100%" />
-</div>
+
 
 A simple scoreboard system for RedM servers that displays list of players and their information including names, jobs, money, and ping. can be changed and modified to your needs.
 
