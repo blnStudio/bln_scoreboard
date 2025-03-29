@@ -5,6 +5,11 @@
 
 A simple scoreboard system for RedM servers that displays list of players and their information including names, jobs, money, and ping. can be changed and modified to your needs.
 
+[![](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/M101-HDNKFw)
+[![Discord](https://img.shields.io/badge/Discord-1111?style=flat&logo=discord&logoColor=white&color=7289da)](https://discord.bln-studio.com/)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/blnStudio/bln_scoreboard)
+![License](https://img.shields.io/github/license/blnStudio/bln_scoreboard)
+
 ## ✨ Features
 
 - Display player list with key press or command
@@ -13,9 +18,6 @@ A simple scoreboard system for RedM servers that displays list of players and th
 - Configurable settings
 - Vue.js frontend for smooth rendering
 - Framework integration support
-
-## Demo
-- [Video Preview](https://youtu.be/M101-HDNKFw)
 
 ## 🛠️ Configuration
 
